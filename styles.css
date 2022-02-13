@@ -1,0 +1,138 @@
+/* Page */
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 28px;
+    padding-bottom: 0px;
+}
+
+h4 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 22px;
+}
+/* Header and Navigation */
+header {
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+a {
+    color: seashell;
+}
+
+#site-logo {
+    height: 50px;
+    padding: 10px;
+}
+
+/* Section - Our Mission */
+
+#our-mission {
+    padding-top: 69px;
+    height: 700px;
+    width: 1200px;
+    background-image: url(./images/img-mission-background.webp);
+    margin: 0 auto;
+}
+
+#hero-text {
+    background: black;
+    margin-top: 300px;
+}
+/* Section - Monthly Specials */
+#tea-of-the-month {
+    padding-top: 50px;
+    text-align: center;
+}
+.monthly-specials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.monthly-card {
+    height: 200px;
+    width: 300px;
+}
+figcaption {
+    padding-top: 10px;
+}
+
+
+/* Section - Locations */
+#locations {
+    margin-top: 100px;
+    background-image: url(./images/img-locations-background.webp);
+    background-position-y: 25%;
+    height: 500px;
+    width: 1200px;
+}
+
+#locations h2 {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+#location-cards {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    opacity: 1;
+}
+
+.location-info {
+    width: 300px;
+    background: black;
+    line-height: 2.5;
+    padding: 10px 0px;
+}
+/* Section - Contact */
+#contact {
+    height: 200px;
+}
+
+h5 {
+    padding: 15px;
+}
+/* Footer */
+
+footer {
+    padding-left: 20px;
+    text-align: left;
+}
+
